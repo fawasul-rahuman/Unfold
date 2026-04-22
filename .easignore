@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow the files we actually need
+!app/
+!assets/
+!constants/
+!hooks/
+!components/
+!app.json
+!package.json
+!package-lock.json
+!eas.json
+!tsconfig.json

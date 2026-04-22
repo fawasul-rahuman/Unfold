@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Unfold News",
+    "slug": "unfold-news",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#000000",
+    "icon": "./assets/images/splash.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash.png",
+        "backgroundColor": "#000000"
+      },
+      "splash": {
+        "image": "./assets/images/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.unfold"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e76efc70-9c70-47e2-8443-cb0817f60eeb"
+      }
+    }
+  }
+}
