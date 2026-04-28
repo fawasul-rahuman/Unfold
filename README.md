@@ -30,3 +30,24 @@ Unfold aggregates global headlines into a streamlined, high-performance mobile i
    ```bash
    git clone [https://github.com/fawasul-rahuman/Unfold.git](https://github.com/fawasul-rahuman/Unfold.git)
    cd Unfold
+
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Environment Variables**
+   Create a .env file in the root directory:
+   ```bash
+   EXPO_PUBLIC_CURRENTS_API_KEY=your_api_key_here
+
+4. **Start Development Server**
+   ```bash
+   npx expo start
+
+**Build Instructions**
+   To build the production-ready APK for Android:
+   ```bash
+   eas build -p android --profile preview
+
+**License**
+   Unfold - All Rights Reserved.
