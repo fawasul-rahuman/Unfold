@@ -48,6 +48,7 @@ Unfold aggregates global headlines into a streamlined, high-performance mobile i
    To build the production-ready APK for Android:
    ```bash
    eas build -p android --profile preview
+   ```
 
 **License**
    Unfold - All Rights Reserved.
